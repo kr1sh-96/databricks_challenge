@@ -1,0 +1,20 @@
+#https://dbc-f6513031-f0a1.cloud.databricks.com/editor/notebooks/2868299211501419?o=7474651208709378#command/6692712759815588
+
+Day 1 | Databricks 14 days of AI Challenge - Platform Setup & First Steps
+
+What I learned today (19/01/2026)
+- Why Databricks vs Pandas/Hadoop?
+- Lakehouse architecture basics
+- Databricks workspace structure
+- Industry use cases (Netflix, Shell, Comcast)
+
+🛠️ What I Practiced
+✓ Analyzed query execution plans
+✓ Partitioned large tables
+✓ Applied OPTIMIZE & ZORDER
+✓ Benchmarked performance improvements
+
+#Code
+data = [('Iphone','50000'),('Samsung','15000'),('Macbook','75000')]
+df = spark.createDataFrame(data,['product','price'])
+df.show()
